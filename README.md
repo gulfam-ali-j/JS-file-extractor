@@ -7,7 +7,19 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-# Configuration
+
+
+
+Step 1 : To install this tool just git clone 
+
+Step 2 : Make it excutable : 
+
+        #chmod +x api_monitor.py
+
+Step 3 : Run with arguments 
+         
+     # Configurationpython3 api_monitor.py -u https://target.com -o old_endpoints.json -t 10
+
 TARGET_URL = "https://target.com"
 OLD_DATA_FILE = "old_endpoints.json"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
